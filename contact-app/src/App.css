@@ -1,0 +1,125 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0f0f14;
+  color: white;
+}
+
+.app-container {
+  max-width: 420px;
+  height: 80vh;
+  margin: 40px auto;
+  background: #1c1c1e;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select {
+  background: #2c2c2e;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+select option {
+  background: #2c2c2e;
+  color: white;
+}
+
+form button {
+  background: #0a84ff;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  color: white;
+}
+
+.filtros {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: #8e8e93;
+}
+
+.activo {
+  color: #0a84ff;
+}
+
+.lista-contactos {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.contacto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 5px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+}
+
+.info h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.info p {
+  margin: 0;
+  font-size: 13px;
+  color: #8e8e93;
+}
+
+.categoria {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.1);
+}
+
+.delete-btn {
+  color: #ff453a;
+  font-size: 18px;
+}
+
+.empty {
+  text-align: center;
+  margin-top: 20px;
+  color: #8e8e93;
+}
